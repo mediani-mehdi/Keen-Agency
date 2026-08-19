@@ -105,7 +105,7 @@ export function ServicesSection({ onSelectService }: ServicesSectionProps) {
                     <div className="relative aspect-[16/9] w-full rounded-xl bg-slate-900 border border-slate-800 overflow-hidden flex flex-col justify-center items-center p-4">
                       <div className="relative h-12 w-40">
                         <Image
-                          src="/keen-logo-white.png"
+                          src="/logo-white.svg"
                           alt="Keen Agency Logo Vector"
                           fill
                           unoptimized

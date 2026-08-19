@@ -82,11 +82,11 @@ export function HeroSection({ onOpenContact, onOpenReel }: HeroSectionProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         <div className="max-w-2xl lg:max-w-3xl flex flex-col items-start text-white">
-          {/* Official Brand Logo & Agency Badge */}
+          {/* Official Brand SVG Logo & Agency Badge */}
           <div className="hero-anim-text flex items-center gap-3 mb-6">
             <div className="relative h-10 w-36 drop-shadow-md">
               <Image
-                src="/keen-logo-white.png"
+                src="/logo-white.svg"
                 alt="Keen Agency Official Logo"
                 fill
                 unoptimized

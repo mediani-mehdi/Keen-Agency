@@ -51,11 +51,11 @@ export function Navbar({ onOpenContact }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Official Brand Logo */}
+        {/* Official Brand SVG Logo */}
         <a href="#" className="flex items-center gap-2 group">
           <div className="relative h-8 sm:h-9 w-28 sm:w-32 transition-transform duration-300 group-hover:scale-105">
             <Image
-              src={scrolled ? "/keen-logo.png" : "/keen-logo-white.png"}
+              src={scrolled ? "/logo.svg" : "/logo-white.svg"}
               alt="Keen Agency Logo"
               fill
               unoptimized
@@ -191,7 +191,7 @@ export function Navbar({ onOpenContact }: NavbarProps) {
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <div className="relative h-7 w-28">
                 <Image
-                  src="/keen-logo.png"
+                  src="/logo.svg"
                   alt="Keen Agency Logo"
                   fill
                   unoptimized
