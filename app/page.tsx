@@ -12,9 +12,8 @@ import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
 import { ContactDialog } from "@/components/ContactDialog";
 import { ReelModal } from "@/components/ReelModal";
-import { LanguageProvider } from "@/context/LanguageContext";
 
-function MainContent() {
+export default function Home() {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isReelOpen, setIsReelOpen] = useState(false);
 
@@ -69,13 +68,5 @@ function MainContent() {
         onOpenContact={handleOpenContact}
       />
     </main>
-  );
-}
-
-export default function Home() {
-  return (
-    <LanguageProvider>
-      <MainContent />
-    </LanguageProvider>
   );
 }

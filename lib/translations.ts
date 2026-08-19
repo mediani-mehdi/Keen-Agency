@@ -7,6 +7,8 @@ export const translations = {
       portfolio: "Réalisations",
       process: "Notre Méthode",
       whyKeen: "Pourquoi Keen",
+      about: "À Propos",
+      faq: "FAQ",
       whatsapp: "WhatsApp Direct",
       startProject: "Démarrer un Projet",
     },
@@ -391,11 +393,211 @@ export const translations = {
       desc: "Keen Agency est née d'une idée simple : donner aux marques une voix forte et authentique. Nous transformons chaque vision en une stratégie créative et percutante, créant de véritables connexions entre les organisations et les personnes.",
       featuresHeader: "// EXPERTISES",
       contactHeader: "// CONTACT DIRECT",
+      pagesHeader: "// PAGES",
+      policiesHeader: "// POLITIQUES",
       backToTop: "Haut de Page",
       allRights: "TOUS DROITS RÉSERVÉS.",
-      privacy: "POLITIQUE DE CONFIDENTIALITÉ",
-      refund: "POLITIQUE DE REMBOURSEMENT",
-      terms: "CONDITIONS GÉNÉRALES",
+      privacy: "Politique de Confidentialité",
+      refund: "Politique de Remboursement",
+      terms: "Conditions Générales",
+    },
+    aboutPage: {
+      badge: "À PROPOS DE KEEN AGENCY",
+      heroTitle: "Donner aux marques une voix forte & authentique.",
+      heroSubtitle: "Keen Agency est née d'une ambition claire : transformer chaque vision d'entreprise en une stratégie digitale créative, percutante et rentable. Nous créons de véritables ponts entre les organisations et les personnes.",
+      storyTitle: "Notre Histoire & Philosophie",
+      storyP1: "Fondée avec la volonté de redéfinir la communication digitale, Keen Agency allie une direction artistique audacieuse à une rigueur technologique de pointe.",
+      storyP2: "Nous croyons que le succès d'une marque ne repose pas uniquement sur son esthétique, mais sur sa capacité à générer des émotions sincères, à engager durablement sa communauté et à convertir son audience en clients fidèles.",
+      missionTitle: "Notre Mission",
+      missionDesc: "Transformer chaque idée en une stratégie digitale créative et percutante. Grâce à notre passion, notre innovation et notre expertise, nous aidons les entreprises à grandir, à engager leur audience et à s'imposer sur leur marché.",
+      visionTitle: "Notre Vision",
+      visionDesc: "Permettre aux marques d'établir une présence digitale puissante, authentique et pérenne. Nous aspirons à être le partenaire de confiance qui inspire la croissance et la notoriété à long terme.",
+      coreValuesTitle: "Nos Valeurs Fondamentales",
+      valuesList: [
+        { title: "Créativité", desc: "Délivrer des idées fraîches, originales et percutantes qui captivent l'attention." },
+        { title: "Engagement", desc: "Accompagner chaque partenaire avec un dévouement total et une transparence sans faille." },
+        { title: "Excellence", desc: "Viser la plus haute qualité visuelle, ergonomique et technique dans chaque livrable." },
+        { title: "Innovation", desc: "Intégrer les dernières tendances créatives, technologiques et algorithmiques du digital." },
+        { title: "Proximité", desc: "Bâtir des relations durables basées sur l'écoute active, l'échange et la disponibilité 24/7." },
+      ],
+      stats: [
+        { val: "100%", label: "Projets Sur-Mesure" },
+        { val: "24/7", label: "Disponibilité & Support" },
+        { val: "99.4%", label: "Satisfaction & Fidélité" },
+        { val: "5★", label: "Excellence Créative" },
+      ],
+      ctaTitle: "Prêt à bâtir l'avenir de votre marque ?",
+      ctaSubtitle: "Contactez notre équipe dès aujourd'hui pour concevoir votre stratégie digitale sur-mesure.",
+      ctaBtn: "Démarrer une Collaboration",
+    },
+    faqPage: {
+      badge: "QUESTIONS FRÉQUENTES // FAQ",
+      heroTitle: "Tout ce que vous devez savoir sur notre accompagnement.",
+      heroSubtitle: "Retrouvez les réponses détaillées à vos questions concernant nos services, nos délais, nos processus de paiement et notre support 24/7.",
+      categories: [
+        {
+          name: "Services & Expertises",
+          items: [
+            {
+              q: "Quels sont les domaines d'expertise principaux de Keen Agency ?",
+              a: "Nous intervenons sur cinq pôles complémentaires : 1) Branding & Design Visuel (logos, chartes, univers de marque), 2) Marketing Digital & Data (acquisition payante et organique, tunnels de conversion), 3) Création de Contenu (vidéos 4K, reels verticaux 9:16, 3D), 4) Développement Web Sur-Mesure (sites Next.js rapides, responsive, SEO), et 5) Stratégie & Conseil.",
+            },
+            {
+              q: "Travaillez-vous avec des clients internationaux ?",
+              a: "Oui, absolument. Bien que basée au Maroc, Keen Agency accompagne des entreprises, startups et créateurs de contenu à l'international (France, Europe, Moyen-Orient, Amérique du Nord). Nos outils collaboratifs et notre disponibilité 24/7 facilitent les échanges quel que soit votre fuseau horaire.",
+            },
+            {
+              q: "Puis-je commander une prestation unique ou s'agit-il uniquement de forfaits mensuels ?",
+              a: "Nous proposons les deux formules. Vous pouvez solliciter Keen Agency pour un projet ponctuel (création de site web, refonte de charte graphique, film commercial) ou opter pour un accompagnement mensuel récurrent en marketing digital et production de contenu continu.",
+            },
+          ],
+        },
+        {
+          name: "Délais & Méthodologie",
+          items: [
+            {
+              q: "Combien de temps prend la création d'une identité visuelle ou d'un site web ?",
+              a: "Une identité visuelle complète nécessite généralement entre 2 et 3 semaines, incluant les phases de recherche, propositions créatives et affinages. Un projet de site web moderne s'étend en moyenne de 3 à 5 semaines selon la complexité des fonctionnalités et des intégrations requises.",
+            },
+            {
+              q: "Comment se déroule la collaboration une fois le projet lancé ?",
+              a: "Nous suivons une méthodologie rigoureuse en 6 étapes : Découverte $\\rightarrow$ Stratégie $\\rightarrow$ Production $\\rightarrow$ Lancement $\\rightarrow$ Engagement $\\rightarrow$ Support continu. Vous disposez d'un canal de communication direct et d'un tableau de suivi en temps réel de chaque jalon.",
+            },
+            {
+              q: "Combien de cycles de révisions sont inclus dans les livrables ?",
+              a: "Tous nos devis incluent des cycles de révisions dédiés sur chaque phase (généralement 2 à 3 tours d'ajustements complets) afin de garantir que le résultat final corresponde parfaitement à vos attentes.",
+            },
+          ],
+        },
+        {
+          name: "Tarification, Paiement & Support",
+          items: [
+            {
+              q: "Comment sont structurés les paiements ?",
+              a: "Nos projets sont généralement échelonnés par jalons : un acompte initial au démarrage (40-50%), des paiements d'étape selon les livrables validés, et le solde final lors du déploiement ou du transfert des fichiers sources finaux.",
+            },
+            {
+              q: "Que comprend le support 24/7 de Keen Agency ?",
+              a: "Notre assistance 24/7 vous garantit une réactivité permanente par WhatsApp et email pour répondre à vos questions urgentes, assurer la maintenance technique de votre site web et ajuster vos campagnes publicitaires à tout moment.",
+            },
+            {
+              q: "Comment démarrer un projet avec Keen Agency dès aujourd'hui ?",
+              a: "Il vous suffit de cliquer sur 'Démarrer un Projet' pour remplir notre court formulaire de brief, ou de nous contacter directement sur WhatsApp au +212 654 67 47 26. Nous vous répondrons sous 24 heures avec une proposition adaptée.",
+            },
+          ],
+        },
+      ],
+      needMoreHelp: "Vous avez une question spécifique qui ne figure pas ici ?",
+      contactUsBtn: "Échanger avec notre équipe",
+    },
+    privacyPolicy: {
+      badge: "CONFIDENTIALITÉ DES DONNÉES",
+      title: "Politique de Confidentialité",
+      lastUpdated: "Dernière mise à jour : Février 2026",
+      sections: [
+        {
+          title: "1. Introduction et Engagement",
+          content: "Keen Agency ('nous', 'notre' ou 'l'Agence') accorde une importance primordiale à la protection de la vie privée et des données personnelles de ses utilisateurs, clients et partenaires. La présente Politique de Confidentialité décrit la manière dont nous collectons, utilisons, stockons et protégeons les informations collectées lors de votre visite sur https://keenagency.org/ ou lors de nos échanges commerciaux.",
+        },
+        {
+          title: "2. Données Personnelles Collectées",
+          content: "Dans le cadre de nos activités, nous pouvons collecter les informations suivantes lorsque vous remplissez nos formulaires de contact ou communiquez avec notre équipe : Votre nom complet, votre adresse email professionnelle, votre numéro de téléphone ou identifiant WhatsApp, le nom de votre entreprise, ainsi que les détails de votre projet ou brief créatif.",
+        },
+        {
+          title: "3. Utilisation de vos Informations",
+          content: "Les données recueillies sont strictement utilisées aux fins suivantes : 1) Répondre à vos demandes de renseignements et vous fournir des devis personnalisés, 2) Exécuter et livrer nos prestations de branding, marketing digital, création de contenu et développement web, 3) Assurer le support client 24/7 et le suivi technique, 4) Améliorer les performances et l'ergonomie de nos plateformes.",
+        },
+        {
+          title: "4. Confidentialité et Non-Partage",
+          content: "Keen Agency ne vend, ne loue et ne commercialise aucune donnée personnelle à des tiers. Vos informations ne sont partagées qu'avec les membres habilités de notre équipe et nos prestataires techniques sécurisés strictement nécessaires à l'exécution de nos services (hébergement cloud, outils de messagerie sécurisée).",
+        },
+        {
+          title: "5. Sécurité des Données",
+          content: "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles conformes aux standards de l'industrie (chiffrement SSL/TLS, accès restreints, pare-feu) pour protéger vos données contre tout accès non autorisé, altération, divulgation ou destruction.",
+        },
+        {
+          title: "6. Vos Droits",
+          content: "Conformément aux réglementations applicables en matière de protection des données, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données personnelles. Vous pouvez exercer ces droits à tout moment en nous écrivant à info@keenagency.org.",
+        },
+        {
+          title: "7. Contact",
+          content: "Pour toute question relative à notre Politique de Confidentialité, vous pouvez nous joindre par email à info@keenagency.org ou par téléphone / WhatsApp au +212 654 67 47 26.",
+        },
+      ],
+    },
+    refundPolicy: {
+      badge: "CONDITIONS COMMERCIALES",
+      title: "Politique de Remboursement",
+      lastUpdated: "Dernière mise à jour : Février 2026",
+      sections: [
+        {
+          title: "1. Nature de nos Prestations",
+          content: "Keen Agency fournit des services professionnels sur-mesure en branding, stratégie digitale, création de contenu audiovisuel et développement web. En raison de la nature créative et personnalisée de nos livrables, nos conditions d'annulation et de remboursement sont encadrées par des règles d'étapes claires.",
+        },
+        {
+          title: "2. Acomptes et Démarrage de Projet",
+          content: "L'acompte initial versé lors de la signature d'un devis couvre les phases de recherche préparatoire, de cadrage stratégique et d'allocation des ressources de notre équipe créative. Cet acompte est réputé non remboursable une fois le travail de recherche ou de production entamé.",
+        },
+        {
+          title: "3. Validation par Jalons",
+          content: "Nos projets sont structurés par étapes d'approbation mutuelle. Lorsqu'un jalon (moodboard, charte graphique, maquette UI, scénario vidéo) est formellement validé par le client, les montants associés à cette étape sont définitivement acquis et ne peuvent faire l'objet d'un remboursement rétroactif.",
+        },
+        {
+          title: "4. Garantie de Satisfaction & Révisions",
+          content: "Afin de garantir votre entière satisfaction, chaque contrat inclut des cycles de révisions substantiels. Si une proposition initiale ne correspond pas à vos attentes, notre équipe s'engage à itérer et ajuster les livrables dans le cadre du périmètre convenu.",
+        },
+        {
+          title: "5. Annulation d'un Projet en Cours",
+          content: "En cas d'annulation anticipée du projet à l'initiative du client avant sa finalisation, seuls les travaux déjà réalisés et les dépenses engagées seront facturés. Le client se verra remettre l'ensemble des éléments produits jusqu'à la date d'interruption.",
+        },
+        {
+          title: "6. Forfaits Mensuels Récurrents",
+          content: "Pour nos forfaits mensuels de gestion marketing et production de contenu, le client peut résilier son abonnement avec un préavis écrit de 30 jours avant le renouvellement de la période suivante. Les mois entamés restent dus dans leur intégralité.",
+        },
+        {
+          title: "7. Réclamations et Contact",
+          content: "Pour toute demande relative à la facturation ou aux remboursements, veuillez vous adresser à notre service administratif : info@keenagency.org ou digitalkeenagency@gmail.com.",
+        },
+      ],
+    },
+    termsConditions: {
+      badge: "CADRE JURIDIQUE",
+      title: "Conditions Générales d'Utilisation et de Vente",
+      lastUpdated: "Dernière mise à jour : Février 2026",
+      sections: [
+        {
+          title: "1. Objet et Acceptation",
+          content: "Les présentes Conditions Générales régissent les relations contractuelles entre Keen Agency et toute personne physique ou morale souscrivant à ses prestations de services digitaux, de branding, de création de contenu et de développement web. Toute commande ou validation de devis implique l'acceptation pleine et entière des présentes conditions.",
+        },
+        {
+          title: "2. Devis et Périmètre des Travaux",
+          content: "Chaque projet fait l'objet d'un devis détaillé spécifiant le périmètre des prestations, les livrables attendus, le calendrier prévisionnel et les modalités financières. Toute demande additionnelle non prévue au devis initial fera l'objet d'un avenant ou d'une facturation complémentaire après accord préalable.",
+        },
+        {
+          title: "3. Obligations du Client",
+          content: "Le client s'engage à collaborer activement avec l'Agence en fournissant en temps utile les informations, contenus textuels, éléments graphiques et retours nécessaires à la bonne exécution des travaux, et garantit détenir l'ensemble des droits sur les éléments transmis.",
+        },
+        {
+          title: "4. Propriété Intellectuelle et Droits d'Auteur",
+          content: "Sous réserve du paiement intégral des sommes dues au titre du contrat, Keen Agency cède au client l'ensemble des droits d'exploitation et de diffusion sur les livrables finaux créés spécifiquement pour sa marque. Keen Agency conserve le droit de mentionner les réalisations à titre de référence dans son portfolio et ses supports de communication.",
+        },
+        {
+          title: "5. Modalités de Paiement et Pénalités",
+          content: "Les factures sont payables selon les échéances convenues sur le devis (virement bancaire ou moyens de paiement agréés). Tout retard de paiement pourra entraîner la suspension immédiate des prestations en cours jusqu'à régularisation.",
+        },
+        {
+          title: "6. Confidentialité",
+          content: "L'Agence et le client s'engagent réciproquement à maintenir la plus stricte confidentialité concernant toutes les informations stratégiques, commerciales, financières ou techniques échangées au cours de la collaboration.",
+        },
+        {
+          title: "7. Responsabilité et Force Majeure",
+          content: "Keen Agency est soumise à une obligation de moyens dans l'exécution de ses prestations. L'Agence ne saurait être tenue responsable des dommages indirects, pertes d'exploitation ou retards résultant d'un cas de force majeure ou d'un défaut de coopération du client.",
+        },
+        {
+          title: "8. Droit Applicable et Juridiction Compétente",
+          content: "Les présentes conditions sont régies par le droit applicable. En cas de différend, les parties s'engagent à rechercher une solution amiable avant tout recours judiciaire.",
+        },
+      ],
     },
   },
   en: {
@@ -404,6 +606,8 @@ export const translations = {
       portfolio: "Showcase",
       process: "How We Work",
       whyKeen: "Why Keen",
+      about: "About Us",
+      faq: "FAQ",
       whatsapp: "WhatsApp Us",
       startProject: "Start a Project",
     },
@@ -788,11 +992,211 @@ export const translations = {
       desc: "Keen Agency was born from a simple idea: to give brands a strong and authentic voice. We turn every vision into a creative and impactful strategy, building real connections between organisations and people.",
       featuresHeader: "// FEATURES",
       contactHeader: "// CONTACT",
+      pagesHeader: "// PAGES",
+      policiesHeader: "// POLICIES",
       backToTop: "Back to Top",
       allRights: "ALL RIGHTS RESERVED.",
-      privacy: "PRIVACY POLICY",
-      refund: "REFUND POLICY",
-      terms: "TERMS AND CONDITIONS",
+      privacy: "Privacy Policy",
+      refund: "Refund Policy",
+      terms: "Terms and Conditions",
+    },
+    aboutPage: {
+      badge: "ABOUT KEEN AGENCY",
+      heroTitle: "Giving brands a strong & authentic voice.",
+      heroSubtitle: "Keen Agency was founded on a clear ambition: turning every business vision into a creative, impactful, and performance-driven digital strategy. We build real connections between organisations and people.",
+      storyTitle: "Our Story & Philosophy",
+      storyP1: "Founded with the ambition to redefine digital brand communications, Keen Agency fuses bold artistic direction with modern, cutting-edge technical execution.",
+      storyP2: "We believe that long-term brand success isn't just about superficial aesthetics—it's about evoking genuine emotion, sustaining active audience engagement, and converting attention into tangible revenue.",
+      missionTitle: "Our Mission",
+      missionDesc: "To transform every idea into a creative and impactful digital strategy. Through passion, innovation, and expertise, we help businesses grow, engage their audience, and stand out in the global digital landscape.",
+      visionTitle: "Our Vision",
+      visionDesc: "To empower brands with a strong, authentic, and lasting digital presence. We strive to be the bridge between organizations and people, inspiring sustained trust and market leadership.",
+      coreValuesTitle: "Our Core Values",
+      valuesList: [
+        { title: "Creativity", desc: "Delivering fresh, original, and high-impact ideas that command attention." },
+        { title: "Commitment", desc: "Supporting every client with dedicated professionalism, care, and full transparency." },
+        { title: "Excellence", desc: "Striving for top-tier visual, functional, and performance quality in all we build." },
+        { title: "Innovation", desc: "Embracing the latest creative design, technology, and algorithmic digital trends." },
+        { title: "Proximity", desc: "Building trust through active listening, open collaboration, and 24/7 availability." },
+      ],
+      stats: [
+        { val: "100%", label: "Tailored Approach" },
+        { val: "24/7", label: "Dedicated Support" },
+        { val: "99.4%", label: "Client Retention" },
+        { val: "5★", label: "Creative Excellence" },
+      ],
+      ctaTitle: "Ready to elevate your brand's presence?",
+      ctaSubtitle: "Contact our dedicated team today to craft your bespoke digital strategy.",
+      ctaBtn: "Start a Collaboration",
+    },
+    faqPage: {
+      badge: "FREQUENTLY ASKED QUESTIONS // FAQ",
+      heroTitle: "Everything you need to know about partnering with us.",
+      heroSubtitle: "Find detailed answers to common questions about our capabilities, delivery timelines, payment terms, and 24/7 dedicated support.",
+      categories: [
+        {
+          name: "Services & Capabilities",
+          items: [
+            {
+              q: "What are Keen Agency's core areas of expertise?",
+              a: "We operate across five integrated pillars: 1) Branding & Design (logos, design systems, visual universe), 2) Digital Marketing & Data (paid & organic acquisition, conversion funnels), 3) Content Creation (4K video, 9:16 vertical reels, 3D motion), 4) Custom Web Development (fast, responsive, Next.js web applications), and 5) Strategy & Consulting.",
+            },
+            {
+              q: "Do you work with international clients?",
+              a: "Yes, absolutely. While headquartered in Morocco, Keen Agency collaborates with brands, high-growth startups, and creators internationally (France, Europe, Middle East, North America). Our modern collaboration stack and 24/7 support ensure seamless communication across all time zones.",
+            },
+            {
+              q: "Can I commission a one-off project or do you only offer monthly retainers?",
+              a: "We offer both models. You can partner with Keen Agency for standalone milestone projects (brand identity creation, web development, commercial campaign film) or engage in ongoing monthly growth retainers for marketing and continuous content production.",
+            },
+          ],
+        },
+        {
+          name: "Timelines & Process",
+          items: [
+            {
+              q: "How long does a brand identity or web development project take?",
+              a: "A comprehensive brand identity typically takes 2 to 3 weeks including research, creative concepts, and revisions. A tailored web design and development project averages 3 to 5 weeks depending on technical complexity and feature integrations.",
+            },
+            {
+              q: "How does the project collaboration unfold once kicked off?",
+              a: "We follow an agile 6-stage methodology: Discovery $\\rightarrow$ Strategy $\\rightarrow$ Production $\\rightarrow$ Launch $\\rightarrow$ Engagement $\\rightarrow$ Post-Launch Support. You are provided with a dedicated communication channel and real-time milestone tracking.",
+            },
+            {
+              q: "How many revision cycles are included?",
+              a: "All our project scopes include dedicated revision rounds at every milestone (typically 2 to 3 full adjustment passes) to ensure the delivered output completely exceeds your expectations.",
+            },
+          ],
+        },
+        {
+          name: "Pricing, Payments & Support",
+          items: [
+            {
+              q: "How are project payments structured?",
+              a: "Our contracts are structured on milestone-based payments: an initial deposit upon project kickoff (40-50%), milestone progress payments, and the final balance upon go-live or final source file delivery.",
+            },
+            {
+              q: "What does Keen Agency's 24/7 dedicated support include?",
+              a: "Our 24/7 support ensures round-the-clock availability via WhatsApp and email for urgent questions, technical website maintenance, campaign adjustments, and ongoing digital advisory.",
+            },
+            {
+              q: "How can I get started with Keen Agency today?",
+              a: "Simply click 'Start a Project' to fill out our brief form, or reach out directly on WhatsApp at +212 654 67 47 26. We will respond within 24 hours with an actionable roadmap.",
+            },
+          ],
+        },
+      ],
+      needMoreHelp: "Have a specific question that isn't answered here?",
+      contactUsBtn: "Speak With Our Team",
+    },
+    privacyPolicy: {
+      badge: "DATA PRIVACY & PROTECTION",
+      title: "Privacy Policy",
+      lastUpdated: "Last Updated: February 2026",
+      sections: [
+        {
+          title: "1. Introduction & Commitment",
+          content: "Keen Agency ('we', 'our', or 'the Agency') is firmly committed to protecting the privacy and personal data of our users, clients, and partners. This Privacy Policy details how we collect, handle, store, and safeguard information gathered through https://keenagency.org/ or during our business communications.",
+        },
+        {
+          title: "2. Information We Collect",
+          content: "We may collect the following details when you complete our contact forms, request proposals, or communicate with our team: Your full name, professional email address, phone number or WhatsApp handle, organization name, and specific project requirements.",
+        },
+        {
+          title: "3. How We Use Your Data",
+          content: "Collected information is strictly used to: 1) Respond to inquiries and generate customized proposals, 2) Execute and deliver branding, digital marketing, content production, and web development engagements, 3) Provide 24/7 client support and maintenance, 4) Improve our website experience and performance.",
+        },
+        {
+          title: "4. Confidentiality & Non-Disclosure",
+          content: "Keen Agency will never sell, rent, or trade your personal data. Information is only accessible to authorized team members and trusted cloud infrastructure providers strictly required to deliver our services under confidentiality agreements.",
+        },
+        {
+          title: "5. Data Security",
+          content: "We enforce industry-standard technical and organizational security protocols (SSL/TLS encryption, restricted access controls, firewalls) to safeguard your data from unauthorized access, alteration, disclosure, or destruction.",
+        },
+        {
+          title: "6. Your Rights",
+          content: "Subject to applicable data protection laws, you retain the right to access, rectify, update, or request the deletion of your personal data at any time by contacting us at info@keenagency.org.",
+        },
+        {
+          title: "7. Contact Us",
+          content: "If you have any questions regarding this Privacy Policy, please reach out via email at info@keenagency.org or by phone / WhatsApp at +212 654 67 47 26.",
+        },
+      ],
+    },
+    refundPolicy: {
+      badge: "COMMERCIAL TERMS",
+      title: "Refund Policy",
+      lastUpdated: "Last Updated: February 2026",
+      sections: [
+        {
+          title: "1. Nature of Custom Services",
+          content: "Keen Agency delivers bespoke digital services including branding, marketing strategy, video production, and web engineering. Due to the customized and creative nature of our deliverables, our cancellation and refund policies are structured around clear project milestones.",
+        },
+        {
+          title: "2. Initial Deposits & Kickoff",
+          content: "Initial project deposits cover foundational research, strategic discovery, and creative team allocation. Once work commences on strategic or creative production, deposits are non-refundable.",
+        },
+        {
+          title: "3. Milestone Approvals",
+          content: "Our projects follow formalized milestone approvals. Once a project phase (such as a moodboard, brand guide, UI layout, or video storyboard) is formally signed off by the client, associated payments are earned and non-refundable.",
+        },
+        {
+          title: "4. Revisions & Satisfaction Commitment",
+          content: "Every contract includes dedicated revision rounds. If an initial deliverable does not align with expectations, our team will iterate and refine the work within the agreed project scope to achieve full alignment.",
+        },
+        {
+          title: "5. Project Cancellation",
+          content: "In the event of an early project cancellation initiated by the client, only hours expended, milestones completed, and committed third-party expenses will be invoiced. All work produced up to the cancellation date will be handed over to the client.",
+        },
+        {
+          title: "6. Monthly Retainers",
+          content: "For monthly digital marketing and content retainers, clients may cancel with a 30-day written notice prior to the upcoming billing cycle. In-progress billing periods remain payable in full.",
+        },
+        {
+          title: "7. Inquiries & Billing Contact",
+          content: "For all billing questions or refund requests, please contact our administrative team at info@keenagency.org or digitalkeenagency@gmail.com.",
+        },
+      ],
+    },
+    termsConditions: {
+      badge: "LEGAL FRAMEWORK",
+      title: "Terms and Conditions of Service",
+      lastUpdated: "Last Updated: February 2026",
+      sections: [
+        {
+          title: "1. Overview & Agreement",
+          content: "These Terms and Conditions govern the contractual relationship between Keen Agency and any client engaging our digital creative, branding, content, and web development services. Approving a proposal or submitting payment signifies full acceptance of these terms.",
+        },
+        {
+          title: "2. Proposals & Scope of Work",
+          content: "Each engagement is outlined in a formal proposal detailing project deliverables, milestone timelines, and fee structures. Any requests outside the agreed scope will be evaluated and quoted separately through an approved change order.",
+        },
+        {
+          title: "3. Client Responsibilities",
+          content: "The client agrees to provide necessary feedback, copy, media assets, and approvals in a timely manner. The client warrants that all provided materials do not infringe on third-party intellectual property rights.",
+        },
+        {
+          title: "4. Intellectual Property Rights",
+          content: "Upon full payment of all contracted fees, Keen Agency transfers full intellectual property ownership and commercial usage rights for bespoke deliverables to the client. Keen Agency retains the right to showcase the work as part of its professional portfolio and case studies.",
+        },
+        {
+          title: "5. Invoicing & Payment Terms",
+          content: "Invoices are payable based on the agreed milestone schedule via bank transfer or approved payment rails. Overdue invoices may result in temporary project pauses until balances are resolved.",
+        },
+        {
+          title: "6. Mutual Confidentiality",
+          content: "Both parties agree to maintain strict confidentiality regarding all proprietary business, strategic, technical, and financial information disclosed during the engagement.",
+        },
+        {
+          title: "7. Limitation of Liability",
+          content: "Keen Agency provides its services under an obligation of best efforts. Under no circumstances will Keen Agency be liable for indirect, incidental, or consequential damages resulting from project delays due to third-party factors or force majeure.",
+        },
+        {
+          title: "8. Governing Law",
+          content: "These terms are governed by applicable law. Any disputes arising shall first be subject to good-faith mutual negotiation before seeking formal legal remedy.",
+        },
+      ],
     },
   },
 };

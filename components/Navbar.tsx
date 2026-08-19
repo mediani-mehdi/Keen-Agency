@@ -30,10 +30,11 @@ export function Navbar({ onOpenContact }: NavbarProps) {
   });
 
   const navLinks = [
-    { label: t.nav.services, href: "#services" },
-    { label: t.nav.portfolio, href: "#portfolio" },
-    { label: t.nav.process, href: "#process" },
-    { label: t.nav.whyKeen, href: "#why-keen" },
+    { label: t.nav.services, href: "/#services" },
+    { label: t.nav.portfolio, href: "/#portfolio" },
+    { label: t.nav.process, href: "/#process" },
+    { label: t.nav.about, href: "/about" },
+    { label: t.nav.faq, href: "/faq" },
   ];
 
   return (
