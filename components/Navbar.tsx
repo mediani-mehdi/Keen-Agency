@@ -51,11 +51,11 @@ export function Navbar({ onOpenContact }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Official Brand SVG Logo */}
+        {/* Brand Logo - Keen logo f.png */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="relative h-8 sm:h-9 w-28 sm:w-32 transition-transform duration-300 group-hover:scale-105">
+          <div className={`relative h-8 sm:h-9 w-28 sm:w-32 transition-all duration-300 group-hover:scale-105 ${scrolled ? "invert contrast-125" : ""}`}>
             <Image
-              src={scrolled ? "/logo.svg" : "/logo-white.svg"}
+              src="/Keen logo f.png"
               alt="Keen Agency Logo"
               fill
               unoptimized
@@ -189,9 +189,9 @@ export function Navbar({ onOpenContact }: NavbarProps) {
           <div className="flex flex-col space-y-3">
             {/* Mobile Logo & Language Switcher */}
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-              <div className="relative h-7 w-28">
+              <div className="relative h-7 w-28 invert contrast-125">
                 <Image
-                  src="/logo.svg"
+                  src="/Keen logo f.png"
                   alt="Keen Agency Logo"
                   fill
                   unoptimized

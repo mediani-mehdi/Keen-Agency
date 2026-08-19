@@ -53,11 +53,11 @@ export function Footer() {
 
         {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 py-12 border-b border-slate-800">
-          {/* Brand Col with Official SVG Logo */}
+          {/* Brand Col with Keen logo f.png */}
           <div className="md:col-span-5 space-y-4">
             <div className="relative h-10 w-36">
               <Image
-                src="/logo-white.svg"
+                src="/Keen logo f.png"
                 alt="Keen Agency Logo"
                 fill
                 unoptimized
