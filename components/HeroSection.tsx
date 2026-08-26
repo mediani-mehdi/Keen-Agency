@@ -92,8 +92,16 @@ export function HeroSection({ onOpenContact, onOpenReel }: HeroSectionProps) {
           {/* H1 Main Headline */}
           <h1 className="hero-anim-text text-4xl sm:text-6xl lg:text-[4.3rem] font-bold tracking-tight text-white font-sans leading-[1.06] drop-shadow-lg">
             {t.hero.titlePre}
-            <span className="text-white relative inline-block underline decoration-[#0066FF] decoration-wavy decoration-from-font underline-offset-8">
-              {t.hero.titleHighlight}
+            <span className="bg-gradient-to-r from-white via-blue-200 to-[#0066FF] bg-clip-text text-transparent">
+              {t.hero.titleWord1}
+            </span>
+            <span className="text-white">, </span>
+            <span className="bg-gradient-to-r from-white via-blue-200 to-[#0066FF] bg-clip-text text-transparent">
+              {t.hero.titleWord2}
+            </span>
+            <span className="text-white"> &amp; </span>
+            <span className="bg-gradient-to-r from-white via-blue-200 to-[#0066FF] bg-clip-text text-transparent">
+              {t.hero.titleWord3}
             </span>
             {t.hero.titlePost}
           </h1>
