@@ -207,6 +207,20 @@ export function ServicesSection({ onSelectService }: ServicesSectionProps) {
                 {s.mod3.desc}
               </p>
 
+              <div className="relative aspect-video w-full rounded-2xl bg-slate-950 overflow-hidden border border-slate-800 shadow-inner mb-4">
+                <video
+                  src="/videos/creative-02.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                />
+                <div className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-mono text-cyan-300 border border-white/10">
+                  ● LIVE 4K
+                </div>
+              </div>
+
               <div className="p-4 rounded-2xl bg-slate-950 text-white font-mono text-xs space-y-2 border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase tracking-widest">
                   {s.mod3.assetsHeader}
