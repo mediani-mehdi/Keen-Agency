@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Sparkles, Menu, X, ArrowUpRight, MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
@@ -52,11 +53,11 @@ export function Navbar({ onOpenContact }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Brand Logo - Keen logo f.png */}
-        <a href="#" className="flex items-center gap-2 group">
-          <div className={`relative h-8 sm:h-9 w-28 sm:w-32 transition-all duration-300 group-hover:scale-105 ${scrolled ? "invert contrast-125" : ""}`}>
+        {/* Brand Logo - Keen logo f.png when transparent, keen-logo.png when scrolled */}
+        <Link href="/" className="flex items-center gap-2 group" aria-label="Keen Agency Home">
+          <div className="relative h-8 sm:h-9 w-28 sm:w-32 transition-all duration-300 group-hover:scale-105">
             <Image
-              src="/Keen logo f.png"
+              src={scrolled ? "/keen-logo.png" : "/Keen logo f.png"}
               alt="Keen Agency Logo"
               fill
               unoptimized
@@ -64,7 +65,7 @@ export function Navbar({ onOpenContact }: NavbarProps) {
               priority
             />
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Navigation Links */}
         <nav
@@ -190,15 +191,22 @@ export function Navbar({ onOpenContact }: NavbarProps) {
           <div className="flex flex-col space-y-3">
             {/* Mobile Logo & Language Switcher */}
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-              <div className="relative h-7 w-28 invert contrast-125">
-                <Image
-                  src="/Keen logo f.png"
-                  alt="Keen Agency Logo"
-                  fill
-                  unoptimized
-                  className="object-contain object-left"
-                />
-              </div>
+              <Link
+                href="/"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center"
+                aria-label="Keen Agency Home"
+              >
+                <div className="relative h-7 w-28">
+                  <Image
+                    src="/keen-logo.png"
+                    alt="Keen Agency Logo"
+                    fill
+                    unoptimized
+                    className="object-contain object-left"
+                  />
+                </div>
+              </Link>
               <div className="flex items-center p-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-mono font-bold">
                 <button
                   onClick={() => setLanguage("fr")}

@@ -82,18 +82,8 @@ export function HeroSection({ onOpenContact, onOpenReel }: HeroSectionProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         <div className="max-w-2xl lg:max-w-3xl flex flex-col items-start text-white">
-          {/* Official Brand Logo - Keen logo f.png */}
+          {/* Badge */}
           <div className="hero-anim-text flex items-center gap-3 mb-6">
-            <div className="relative h-10 w-36 drop-shadow-md">
-              <Image
-                src="/Keen logo f.png"
-                alt="Keen Agency Official Logo"
-                fill
-                unoptimized
-                className="object-contain object-left"
-                priority
-              />
-            </div>
             <span className="text-[11px] font-mono uppercase tracking-widest text-slate-300 bg-white/10 px-3 py-1 rounded-full border border-white/15">
               {t.hero.badge}
             </span>
