@@ -114,7 +114,7 @@ export const translations = {
       projects: [
         {
           id: "hyper-kinetic-01",
-          title: "WATERPROOF TEST (coke Spill)",
+          title: "Realme C75: WATERPROOF TEST (coke Spill)",
           client: "Realme C75",
           category: "Vidéo Commerciale IP69",
           impact: "Démonstration d'étanchéité IP69 virale générant une forte rétention et engagement de marque.",
@@ -136,7 +136,7 @@ export const translations = {
         },
         {
           id: "hyper-kinetic-02",
-          title: "Saadbodyfit Photography & Visual Branding",
+          title: "Saadbodyfit: Photography & Visual Branding",
           client: "Saadbodyfit",
           category: "Shooting Photo & Fitness Branding",
           impact: "Création d'une identité visuelle athlétique et percutante pour l'ensemble des supports marketing et digitaux.",
@@ -192,7 +192,7 @@ export const translations = {
         },
         {
           id: "hyper-kinetic-04",
-          title: "DURABILITY TEST (Concrete Drop)",
+          title: "Realme C75: DURABILITY TEST (Concrete Drop)",
           client: "Realme C75",
           category: "Campagne MIL-STD-810H",
           impact: "Démonstration de résistance aux chocs générant un engagement massif auprès de la jeunesse marocaine.",
@@ -732,7 +732,7 @@ export const translations = {
       projects: [
         {
           id: "hyper-kinetic-01",
-          title: "WATERPROOF TEST (coke Spill)",
+          title: "Realme C75: WATERPROOF TEST (coke Spill)",
           client: "Realme C75",
           category: "IP69 Social Commercial",
           impact: "Over 4.2M organic impressions across TikTok and X demonstrating extreme IP69 liquid resistance.",
@@ -754,7 +754,7 @@ export const translations = {
         },
         {
           id: "hyper-kinetic-02",
-          title: "Saadbodyfit Photography & Visual Branding",
+          title: "Saadbodyfit: Photography & Visual Branding",
           client: "Saadbodyfit",
           category: "Studio Fitness Branding",
           impact: "High-impact athletic imagery driving elevated visual brand identity across all touchpoints.",
@@ -810,7 +810,7 @@ export const translations = {
         },
         {
           id: "hyper-kinetic-04",
-          title: "DURABILITY TEST (Concrete Drop)",
+          title: "Realme C75: DURABILITY TEST (Concrete Drop)",
           client: "Realme C75",
           category: "MIL-STD-810H Social Campaign",
           impact: "High-virality drop stress test driving immense brand affinity and engagement.",
